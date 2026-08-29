@@ -12,11 +12,11 @@
 
 Industrial Engineering for Management student at **Universidad Anáhuac Mayab** and **Woman National Chess Master** (WNM, FENAMAC 2023), combining process engineering, data analytics and continuous improvement with a **10+ year high-performance chess career**:
 
-- **480 hours of professional practice** at **Falco Electronics México**, optimizing an electronic assembly line with **Lean Six Sigma, VSM, SMED, 5S and PDCA** — validated as a co-authored scientific poster at the **ConCEI-3 Congress (UADY, 2026)**.
+- **480 hours of professional practice** at **Falco Electronics México**, optimizing an electronic assembly line with **Lean Six Sigma, VSM, SMED, 5S and PDCA**. Co-authored scientific poster at the **ConCEI-3 Congress (UADY, 2026)**.
 - **Captain of the Anáhuac Mayab chess team (2022–present)** with a cumulative GPA above **9.35**, and chess instructor for kids since ~2020.
 - **Top-10 national chess player**: Pan American runner-up, national university champion and U-20 World Championship participant, representing Mexico internationally.
 
-Currently oriented toward **data science and artificial intelligence**, backed by the *Data Mining & Modern AI Systems* track and hands-on analytics with Minitab, Simio, LINGO, Power BI and Python.
+Professional orientation toward **data science and artificial intelligence**, underpinned by the *Data Mining & Modern AI Systems* track and hands-on analytics with Minitab, Simio, LINGO, Power BI and Python.
 
 ---
 
