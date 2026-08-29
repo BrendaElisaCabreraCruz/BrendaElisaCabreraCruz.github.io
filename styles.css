@@ -1163,10 +1163,10 @@ img {
 }
 
 .channel-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 0.35rem 0.6rem;
   width: 100%;
   max-width: 100%;
@@ -1184,6 +1184,16 @@ img {
   min-width: 0;
   overflow-wrap: anywhere;
   transition: var(--transition);
+}
+
+.email-host {
+  white-space: nowrap;
+}
+
+.channel-side {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .channel-link:hover {
@@ -1428,6 +1438,18 @@ img {
 
   .contact-card {
     padding: 2rem 1.4rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .channel-item-email {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+  }
+
+  .channel-item-email .channel-link {
+    justify-self: start;
   }
 }
 
