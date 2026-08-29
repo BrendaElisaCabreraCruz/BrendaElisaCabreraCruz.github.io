@@ -1,0 +1,7 @@
+# Material de referencia (templates externos) - no publicar
+context/
+
+# Dependencias y archivos de sistema
+node_modules/
+.DS_Store
+Thumbs.db
