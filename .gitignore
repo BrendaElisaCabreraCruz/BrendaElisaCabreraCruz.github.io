@@ -1,6 +1,9 @@
 # Material de referencia (templates externos) - no publicar
 context/
 
+# Documentos personales y material de trabajo - no publicar
+QuienSoy/
+
 # Dependencias y archivos de sistema
 node_modules/
 .DS_Store
