@@ -12,7 +12,8 @@
 
 Industrial Engineering for Management student at **Universidad Anáhuac Mayab** and **Woman National Chess Master** (WNM, FENAMAC 2023), combining process engineering, data analytics and continuous improvement with a **10+ year high-performance chess career**:
 
-- **480 hours of professional practice** at **Falco Electronics México**, optimizing an electronic assembly line with **Lean Six Sigma, VSM, SMED, 5S and PDCA**. Co-authored scientific poster at the **ConCEI-3 Congress (UADY, 2026)**.
+- **Professional engineering experience** at **Falco Electronics México**, optimizing an electronic assembly line with **Lean Six Sigma, VSM, SMED, 5S and PDCA**.
+- Co-authored scientific poster accepted at the **ConCEI-3 Congress (UADY, 2026)** on lean manufacturing tools in an electronic assembly line.
 - **Captain of the Anáhuac Mayab chess team (2022–present)** with a cumulative GPA above **9.35**, and chess instructor for kids since ~2020.
 - **Top-10 national chess player**: Pan American runner-up, national university champion and U-20 World Championship participant, representing Mexico internationally.
 
@@ -24,7 +25,7 @@ Professional orientation toward **data science and artificial intelligence**, un
 
 | Period | Role | Organization | Key Achievements |
 | :--- | :--- | :--- | :--- |
-| **Jan — Jul 2026** | **Industrial Engineering Intern** | **Falco Electronics México** | 480 practice hours; assembly line balancing and efficiency improvement with lean manufacturing; data-driven corrective action proposals. |
+| **Jan — Jul 2026** | **Industrial Engineering** | **Falco Electronics México** | Assembly line balancing and efficiency improvement with lean manufacturing; data-driven corrective action proposals. |
 | **2022 — Present** | **Captain, Chess Team** | **Anáhuac Mayab** (Mérida, MX) | Team grown to almost 20 members; ~15 committed training hours per week; leadership by example. |
 | **~2020 — Present** | **Chess Instructor** | Private lessons | Teaching strategy and discipline to children; backed by a school recommendation letter. |
 | **2016 — Present** | **High-Performance Chess Athlete** | National & international events | WNM title (2023), Pan American runner-up (2024), national university champion, U-20 World Championship (2023). |
