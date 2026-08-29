@@ -4,723 +4,689 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="metaTitle">Brenda Elisa Cabrera Cruz | Ingeniería Industrial y Ajedrez de Alto Rendimiento</title>
-  <meta name="description" data-i18n="metaDesc" content="Ingeniera Industrial para la Dirección (Anáhuac Mayab) y Maestra Nacional de Ajedrez (WNM). Gestión de procesos, análisis de datos, mejora continua y alta competencia deportiva.">
+  <meta name="description" data-i18n="metaDesc" content="Estudiante de Ingeniería Industrial para la Dirección (Anáhuac Mayab) y Maestra Nacional de Ajedrez (WNM). Gestión de procesos, análisis de datos, mejora continua y alta competencia deportiva.">
   <meta name="keywords" content="Brenda Elisa Cabrera Cruz, Ingeniería Industrial, Anáhuac Mayab, Lean Six Sigma, Mejora Continua, Ajedrez, WNM, Maestra Nacional de Ajedrez, Análisis de Datos">
   <meta name="author" content="Brenda Elisa Cabrera Cruz">
-
-  <!-- Open Graph / Meta -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Brenda Elisa Cabrera Cruz | Ingeniería Industrial & Ajedrez">
   <meta property="og:description" content="Ingeniería Industrial para la Dirección y Maestra Nacional de Ajedrez (WNM). Procesos, datos, mejora continua y competencia de élite.">
   <meta property="og:url" content="https://BrendaElisaCabreraCruz.github.io">
 
-  <!-- Fonts: Modern, clean, highly readable typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Ambient background glow -->
-  <div class="ambient-glow glow-1"></div>
-  <div class="ambient-glow glow-2"></div>
 
-  <!-- Navigation Bar -->
-  <header class="navbar" id="navbar">
-    <div class="container nav-container">
-      <a href="#hero" class="brand-badge" id="brandLogo">
-        <span class="brand-initials">BE</span>
-        <span class="brand-name">Brenda Elisa Cabrera Cruz<span class="brand-phd">, WNM</span></span>
+<header class="navbar" id="navbar">
+  <div class="container nav-container">
+    <a href="#top" class="brand-badge" id="brandLogo">
+      <span class="brand-name">Brenda Elisa Cabrera Cruz<span class="brand-role">, WNM</span></span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#perfil" class="nav-link" data-i18n="navProfile">Perfil</a>
+      <a href="#personal" class="nav-link" data-i18n="navPersonal">Acerca de mí</a>
+      <a href="#enfoque" class="nav-link" data-i18n="navApproach">Enfoque</a>
+      <a href="#experiencia" class="nav-link" data-i18n="navExperience">Experiencia</a>
+      <a href="#logros" class="nav-link" data-i18n="navAchievements">Logros</a>
+      <a href="#proyectos" class="nav-link" data-i18n="navProjects">Proyectos</a>
+      <a href="#competencias" class="nav-link" data-i18n="navSkills">Competencias</a>
+      <a href="#educacion" class="nav-link" data-i18n="navEducation">Educación</a>
+      <a href="#contacto" class="nav-link" data-i18n="navContact">Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle-btn" id="langToggle" aria-label="Cambiar idioma / Switch language" title="Switch to English">
+        <span class="lang-icon">🌐</span>
+        <span class="lang-label" id="langLabel">EN</span>
+      </button>
+      <button class="theme-toggle-btn" id="themeToggle" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema (claro / oscuro)">
+        <span class="theme-icon" id="themeIcon">☀️</span>
+      </button>
+      <a href="Profile.pdf" download class="btn btn-outline btn-sm btn-nav-cv" title="Descargar CV / Download CV">
+        <span class="btn-nav-cv-text" data-i18n="btnDownloadCv">Descargar CV</span>
       </a>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
 
-      <!-- Desktop Navigation Menu -->
-      <nav class="nav-menu" id="navMenu">
-        <a href="#about" class="nav-link" id="navAbout" data-i18n="navProfile">Perfil</a>
-        <a href="#pillars" class="nav-link" id="navPillars" data-i18n="navApproach">Enfoque</a>
-        <a href="#experience" class="nav-link" id="navExp" data-i18n="navExperience">Trayectoria</a>
-        <a href="#achievements" class="nav-link" id="navAch" data-i18n="navAchievements">Logros</a>
-        <a href="#skills" class="nav-link" id="navSkills" data-i18n="navSkills">Competencias</a>
-        <a href="#education" class="nav-link" id="navEdu" data-i18n="navEducation">Educación</a>
-        <a href="#contact" class="nav-link" id="navContact" data-i18n="navContact">Contacto</a>
-      </nav>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <nav class="mobile-nav-links">
+      <a href="#top" class="mobile-nav-link" data-i18n="navHome">Inicio</a>
+      <a href="#perfil" class="mobile-nav-link" data-i18n="navProfile">Perfil</a>
+      <a href="#personal" class="mobile-nav-link" data-i18n="navPersonal">Acerca de mí</a>
+      <a href="#enfoque" class="mobile-nav-link" data-i18n="navApproach">Enfoque</a>
+      <a href="#experiencia" class="mobile-nav-link" data-i18n="navExperience">Experiencia</a>
+      <a href="#logros" class="mobile-nav-link" data-i18n="navAchievements">Logros</a>
+      <a href="#proyectos" class="mobile-nav-link" data-i18n="navProjects">Proyectos</a>
+      <a href="#competencias" class="mobile-nav-link" data-i18n="navSkills">Competencias</a>
+      <a href="#educacion" class="mobile-nav-link" data-i18n="navEducation">Educación</a>
+      <a href="#contacto" class="mobile-nav-link" data-i18n="navContact">Contacto</a>
+    </nav>
+  </div>
+</header>
 
-      <div class="nav-actions">
-        <!-- Language Switcher Toggle -->
-        <button class="lang-toggle-btn" id="langToggle" aria-label="Cambiar idioma / Switch language" title="Switch to English">
-          <span class="lang-icon">🌐</span>
-          <span class="lang-label" id="langLabel">EN</span>
-        </button>
+<main id="top">
+  <!-- HERO -->
+  <section class="section hero-section" id="perfil">
+    <div class="container hero-container">
+      <div class="hero-header-badge">
+        <span class="status-indicator"></span>
+        <span class="status-text" data-i18n="heroStatus">Disponible para oportunidades en Ingeniería Industrial & Analítica de Datos</span>
+      </div>
 
-        <!-- Dark / Light Theme Toggle -->
-        <button class="theme-toggle-btn" id="themeToggle" aria-label="Cambiar tema claro/oscuro" title="Cambiar Tema (Claro / Oscuro)">
-          <span class="theme-icon" id="themeIcon">☀️</span>
-        </button>
+      <h1 class="hero-title" data-i18n="heroTitle">Brenda Elisa Cabrera Cruz</h1>
 
-        <!-- CV Download Button (Responsive: Text on Desktop, Icon-Only on Mobile) -->
-        <a href="Profile.pdf" download class="btn btn-outline btn-sm btn-nav-cv" id="btnDownloadCvNav" title="Descargar CV / Download CV" aria-label="Descargar CV / Download CV">
-          <span class="btn-nav-cv-text" data-i18n="btnDownloadCv">Descargar CV</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      <p class="hero-subtitle" data-i18n="heroSubtitle">Ingeniería Industrial para la Dirección · Mejora Continua · Maestra Nacional de Ajedrez (WNM)</p>
+
+      <p class="hero-location" data-i18n="heroLocation">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Mérida, Yucatán, México
+      </p>
+
+      <div class="hero-summary-box">
+        <div class="summary-highlight-border"></div>
+        <p class="summary-text" data-i18n="heroSummary">
+          Estudiante de <strong>Ingeniería Industrial para la Dirección</strong> (Universidad Anáhuac Mayab) y <strong>WNM — Maestra Nacional de Ajedrez</strong>. Mantengo un promedio acumulado por encima de <strong>9.35</strong>, capitaneo el <strong>equipo representativo de ajedrez</strong> de la universidad desde 2022 y combino la gestión de procesos, el análisis de datos y la mejora continua con más de <strong>10 años de ajedrez de alta competencia</strong>. Apliqué <strong>Lean Six Sigma, VSM, SMED, 5S y PDCA</strong> a una línea de ensamble electrónico en <strong>Falco Electronics México</strong>, y represento a México en campeonatos nacionales e internacionales.
+        </p>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-value" data-i18n="metric1Val">WNM</span>
+          <span class="metric-label" data-i18n="metric1Label">Maestra Nacional de Ajedrez (FENAMAC 2023)</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value" data-i18n="metric2Val">9.35+</span>
+          <span class="metric-label" data-i18n="metric2Label">Promedio acumulado (Anáhuac Mayab)</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value" data-i18n="metric3Val">2×</span>
+          <span class="metric-label" data-i18n="metric3Label">Oro en Universiada Nacional 2024 (Clásico & Blitz)</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value" data-i18n="metric4Val">10+</span>
+          <span class="metric-label" data-i18n="metric4Label">Años de ajedrez de alto rendimiento</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="mailto:brendaelisacabreracruz@gmail.com" class="btn btn-primary">
+          <span data-i18n="btnHeroContact">Iniciar conversación</span>
         </a>
-
-        <!-- Mobile Hamburger Button -->
-        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú de navegación" aria-expanded="false">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
+        <a href="Profile.pdf" download class="btn btn-secondary">
+          <span data-i18n="btnHeroCv">Descargar CV (PDF)</span>
+        </a>
+        <div class="hero-social-group">
+          <a href="https://www.linkedin.com/in/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="btn btn-icon" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.9 0-1.63.73-1.63 1.63 0 .9.73 1.63 1.63 1.63.9 0 1.63-.73 1.63-1.63 0-.9-.73-1.63-1.63-1.63Z"/></svg>
+          </a>
+          <a href="https://github.com/BrendaElisaCabreraCruz" target="_blank" rel="noopener noreferrer" class="btn btn-icon" title="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+          </a>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Mobile Navigation Drawer Overlay -->
-    <div class="mobile-nav-drawer" id="mobileNavDrawer">
-      <nav class="mobile-nav-links">
-        <a href="#hero" class="mobile-nav-link" data-i18n="navHome">Inicio</a>
-        <a href="#about" class="mobile-nav-link" data-i18n="navProfile">Perfil</a>
-        <a href="#pillars" class="mobile-nav-link" data-i18n="navApproach">Enfoque</a>
-        <a href="#experience" class="mobile-nav-link" data-i18n="navExperience">Trayectoria</a>
-        <a href="#achievements" class="mobile-nav-link" data-i18n="navAchievements">Logros</a>
-        <a href="#skills" class="mobile-nav-link" data-i18n="navSkills">Competencias</a>
-        <a href="#education" class="mobile-nav-link" data-i18n="navEducation">Educación</a>
-        <a href="#contact" class="mobile-nav-link" data-i18n="navContact">Contacto</a>
-      </nav>
+  <!-- ACERCA DE MÍ -->
+  <section class="section" id="personal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="personalTag">Sobre mí</span>
+        <h2 class="section-title" data-i18n="personalTitle">Acerca de mí</h2>
+        <p class="section-desc" data-i18n="personalDesc">Quién soy dentro y fuera del ámbito profesional.</p>
+      </div>
+
+      <div class="personal-grid">
+        <div class="personal-card card">
+          <div class="personal-icon">♟️</div>
+          <h3 data-i18n="pers1Title">Ajedrez & Matemáticas</h3>
+          <p data-i18n="pers1Text">Desde la preparatoria, mis pasiones son el ajedrez y las matemáticas, campos donde me desarrollo con éxito y donde la lógica y la estrategia se encuentran.</p>
+        </div>
+        <div class="personal-card card">
+          <div class="personal-icon">🎵</div>
+          <h3 data-i18n="pers2Title">Música & Composición</h3>
+          <p data-i18n="pers2Text">Produzco música chillwave y ambiental. Mi EP "Vol. 1" está en SoundCloud y compuse 15 pistas para el videojuego Bug Valley Demo. Toco guitarra, bajo, piano y violín.</p>
+          <a href="https://soundcloud.com/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="personal-link" data-i18n="pers2Link">Escuchar en SoundCloud</a>
+        </div>
+        <div class="personal-card card">
+          <div class="personal-icon">🏫</div>
+          <h3 data-i18n="pers3Title">Docencia & Liderazgo</h3>
+          <p data-i18n="pers3Text">Capitana del equipo representativo de ajedrez de la Anáhuac Mayab desde 2022 y profesora de ajedrez para niños: disfruto transmitir el pensamiento estratégico.</p>
+        </div>
+        <div class="personal-card card">
+          <div class="personal-icon">🧩</div>
+          <h3 data-i18n="pers4Title">Personalidad INFJ-T</h3>
+          <p data-i18n="pers4Text">Según 16Personalities (2023), INFJ "El Abogado": casual, empática y confiable; lidero con el ejemplo más que con la imposición.</p>
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <!-- HERO SECTION -->
-    <section class="section hero-section" id="hero">
-      <div class="container hero-container">
-
-        <div class="hero-header-badge">
-          <span class="status-indicator"></span>
-          <span class="status-text" data-i18n="heroStatus">Disponible para oportunidades en Ingeniería Industrial & Analítica de Datos</span>
-        </div>
-
-        <h1 class="hero-title" data-i18n="heroTitle">
-          Brenda Elisa Cabrera Cruz
-        </h1>
-
-        <p class="hero-subtitle" data-i18n="heroSubtitle">
-          Ingeniería Industrial para la Dirección • Mejora Continua • Maestra Nacional de Ajedrez (WNM)
-        </p>
-
-        <p class="hero-location" data-i18n="heroLocation">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          Mérida, Yucatán, México
-        </p>
-
-        <!-- Executive Summary Box -->
-        <div class="hero-summary-box" id="about">
-          <div class="summary-highlight-border"></div>
-          <p class="summary-text" data-i18n="heroSummary">
-            Egresada de <strong>Ingeniería Industrial para la Dirección</strong> (Universidad Anáhuac Mayab) y <strong>WNM — Maestra Nacional de Ajedrez</strong>. Combino una sólida formación en gestión de procesos, análisis de datos y mejora continua con más de <strong>10 años de ajedrez de alta competencia</strong>. Apliqué metodologías <strong>Lean Six Sigma, VSM, SMED, 5S y PDCA</strong> a una línea de ensamble electrónico en <strong>Falco Electronics México</strong>, y represento a México en campeonatos nacionales e internacionales.
-          </p>
-        </div>
-
-        <!-- Impact Metrics Grid -->
-        <div class="metrics-grid">
-          <div class="metric-card">
-            <span class="metric-value" data-i18n="metric1Val">WNM</span>
-            <span class="metric-label" data-i18n="metric1Label">Maestra Nacional de Ajedrez (FENAMAC 2023)</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-value" data-i18n="metric2Val">2×</span>
-            <span class="metric-label" data-i18n="metric2Label">Oro en Universiada Nacional 2024 (Clásico & Blitz)</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-value" data-i18n="metric3Val">10+</span>
-            <span class="metric-label" data-i18n="metric3Label">Años de Ajedrez de Alto Rendimiento</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-value" data-i18n="metric4Val">2026</span>
-            <span class="metric-label" data-i18n="metric4Label">Egreso de Ingeniería Industrial para la Dirección</span>
-          </div>
-        </div>
-
-        <!-- Hero Actions -->
-        <div class="hero-actions">
-          <a href="mailto:brendaelisacabreracruz@gmail.com" class="btn btn-primary" id="btnHeroContact">
-            <span data-i18n="btnHeroContact">Iniciar Conversación</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-          </a>
-          <a href="Profile.pdf" download class="btn btn-secondary" id="btnHeroResume">
-            <span data-i18n="btnHeroCv">Descargar CV Completo (PDF)</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          </a>
-          <div class="hero-social-group">
-            <a href="https://www.linkedin.com/in/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="btn btn-icon" title="LinkedIn Profile" id="btnLinkedIn">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.9 0-1.63.73-1.63 1.63 0 .9.73 1.63 1.63 1.63.9 0 1.63-.73 1.63-1.63 0-.9-.73-1.63-1.63-1.63Z"/></svg>
-            </a>
-            <a href="https://github.com/BrendaElisaCabreraCruz" target="_blank" rel="noopener noreferrer" class="btn btn-icon" title="GitHub Profile" id="btnGitHub">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
-            </a>
-          </div>
-        </div>
-
+  <!-- ENFOQUE -->
+  <section class="section" id="enfoque">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="pillarsTag">Enfoque</span>
+        <h2 class="section-title" data-i18n="pillarsTitle">Propuesta de valor</h2>
+        <p class="section-desc" data-i18n="pillarsDesc">Convergencia entre ingeniería de procesos, analítica de datos y la mentalidad competitiva forjada por el ajedrez de alto rendimiento.</p>
       </div>
-    </section>
 
-    <!-- STRATEGIC PILLARS / VALUE PROPOSITION -->
-    <section class="section pillars-section" id="pillars">
-      <div class="container">
-
-        <div class="section-header">
-          <span class="section-tag" data-i18n="pillarsTag">Pilares Estratégicos</span>
-          <h2 class="section-title" data-i18n="pillarsTitle">Enfoque & Propuesta de Valor</h2>
-          <p class="section-desc" data-i18n="pillarsDesc">
-            Convergencia entre ingeniería de procesos, analítica de datos y la mentalidad competitiva forjada por el ajedrez de alto rendimiento.
-          </p>
+      <div class="pillars-grid">
+        <div class="pillar-card card">
+          <div class="pillar-icon">⚙️</div>
+          <h3 class="pillar-title" data-i18n="pillar1Title">Ingeniería Industrial & Mejora Continua</h3>
+          <p class="pillar-text" data-i18n="pillar1Text">Optimización y balanceo de procesos productivos con manufactura esbelta. Aplicación de Lean Six Sigma (White Belt), VSM, SMED, 5S y PDCA para identificar causas de error y proponer acciones correctivas con base en datos.</p>
         </div>
-
-        <div class="pillars-grid">
-
-          <div class="pillar-card card">
-            <div class="pillar-icon">⚙️</div>
-            <h3 class="pillar-title" data-i18n="pillar1Title">Ingeniería Industrial & Mejora Continua</h3>
-            <p class="pillar-text" data-i18n="pillar1Text">
-              Optimización y balanceo de procesos productivos con manufactura esbelta. Aplicación de Lean Six Sigma (White Belt), VSM, SMED, 5S y PDCA para identificar causas de error y proponer acciones correctivas con base en datos.
-            </p>
-          </div>
-
-          <div class="pillar-card card">
-            <div class="pillar-icon">📊</div>
-            <h3 class="pillar-title" data-i18n="pillar2Title">Análisis de Datos & Optimización</h3>
-            <p class="pillar-text" data-i18n="pillar2Text">
-              Análisis estadístico, simulación de sistemas y optimización de recursos con herramientas como Simio, Minitab, LINGO, Power BI y Excel avanzado, complementadas con programación en Python y C++.
-            </p>
-          </div>
-
-          <div class="pillar-card card">
-            <div class="pillar-icon">🏆</div>
-            <h3 class="pillar-title" data-i18n="pillar3Title">Ajedrez de Alto Rendimiento</h3>
-            <p class="pillar-text" data-i18n="pillar3Text">
-              Maestra Nacional de Ajedrez (WNM) con trayectoria competitiva nacional e internacional: campeonatos de Universiada Nacional, Juegos FISU América y selectivos al equipo olímpico, manteniéndome en el top 10 nacional.
-            </p>
-          </div>
-
-          <div class="pillar-card card">
-            <div class="pillar-icon">🧠</div>
-            <h3 class="pillar-title" data-i18n="pillar4Title">Pensamiento Estratégico & Decisión Bajo Presión</h3>
-            <p class="pillar-text" data-i18n="pillar4Text">
-              La práctica competitiva del ajedrez entrena el pensamiento analítico, la disciplina y la toma de decisiones en escenarios de alta presión, competencias que traslado directamente al entorno profesional y a la resolución de problemas complejos.
-            </p>
-          </div>
-
+        <div class="pillar-card card">
+          <div class="pillar-icon">📊</div>
+          <h3 class="pillar-title" data-i18n="pillar2Title">Análisis de Datos & Optimización</h3>
+          <p class="pillar-text" data-i18n="pillar2Text">Análisis estadístico, simulación de sistemas y optimización de recursos con Simio, Minitab, LINGO, Power BI y Excel avanzado, complementados con la ruta de Data Mining & Modern AI Systems.</p>
         </div>
-
+        <div class="pillar-card card">
+          <div class="pillar-icon">🏆</div>
+          <h3 class="pillar-title" data-i18n="pillar3Title">Ajedrez de Alto Rendimiento</h3>
+          <p class="pillar-text" data-i18n="pillar3Text">Maestra Nacional de Ajedrez (WNM) con trayectoria competitiva nacional e internacional: Universiada Nacional, Juegos FISU América, selectivos al equipo olímpico y Mundial Juvenil Sub-20, manteniéndome en el top 10 nacional.</p>
+        </div>
+        <div class="pillar-card card">
+          <div class="pillar-icon">🧠</div>
+          <h3 class="pillar-title" data-i18n="pillar4Title">Pensamiento Estratégico & Decisión Bajo Presión</h3>
+          <p class="pillar-text" data-i18n="pillar4Text">La práctica competitiva del ajedrez entrena el pensamiento analítico, la disciplina y la toma de decisiones en escenarios de alta presión, competencias que traslado directamente al entorno profesional y a la resolución de problemas complejos.</p>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- EXPERIENCE SECTION WITH FILTER TABS -->
-    <section class="section experience-section" id="experience">
-      <div class="container">
-
-        <div class="section-header">
-          <span class="section-tag" data-i18n="expTag">Trayectoria</span>
-          <h2 class="section-title" data-i18n="expTitle">Experiencia Profesional & Deportiva</h2>
-          <p class="section-desc" data-i18n="expDesc">
-            Equilibrio entre la práctica de ingeniería industrial y una carrera deportiva de élite en el deporte ciencia.
-          </p>
-        </div>
-
-        <!-- Filter Controls -->
-        <div class="filter-wrapper">
-          <span class="filter-label" id="filterLabel">Filtro:</span>
-          <div class="filter-buttons" role="tablist">
-            <button class="filter-btn active" data-filter="all" id="filterAll" data-i18n="filterAll">Todas las experiencias (4)</button>
-            <button class="filter-btn" data-filter="industrial" id="filterIndustrial" data-i18n="filterIndustrial">Ingeniería Industrial</button>
-            <button class="filter-btn" data-filter="chess" id="filterChess" data-i18n="filterChess">Ajedrez & Alto Rendimiento</button>
-          </div>
-        </div>
-
-        <!-- Timeline / Experience Cards -->
-        <div class="timeline" id="experienceTimeline">
-
-          <!-- Falco Electronics -->
-          <div class="timeline-item" data-category="industrial">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card">
-              <div class="card-meta">
-                <span class="badge badge-industrial" data-i18n="role1Badge">Practicante de Ingeniería</span>
-                <span class="period" data-i18n="role1Period">Enero 2026 — Julio 2026</span>
-              </div>
-              <h3 class="role-title" data-i18n="role1Title">Practicante de Ingeniería Industrial</h3>
-              <h4 class="company-name">
-                <span data-i18n="role1Company">Falco Electronics México</span>
-                <span class="location-tag" data-i18n="role1Location">📍 Mérida, Yucatán, México</span>
-              </h4>
-
-              <p class="role-summary" data-i18n="role1Summary">
-                Práctica profesional en la industria electrónica, apoyando al equipo de ingeniería en la optimización de la línea de ensamble y la mejora continua del proceso productivo.
-              </p>
-
-              <ul class="impact-list">
-                <li data-i18n="role1Bullet1">
-                  <strong>Balanceo de Línea:</strong> Elaboración de propuestas de balanceo para una línea de ensamble electrónico aplicando herramientas de manufactura esbelta (Lean Six Sigma).
-                </li>
-                <li data-i18n="role1Bullet2">
-                  <strong>Mejora de Eficiencia:</strong> Análisis de eficiencia de producción y propuestas de mejora mediante VSM y SMED, integradas al proceso de decisión del equipo de ingeniería.
-                </li>
-                <li data-i18n="role1Bullet3">
-                  <strong>Control de Errores:</strong> Identificación de causas de error en el proceso productivo y propuesta de acciones correctivas con metodologías de mejora continua (5S, PDCA).
-                </li>
-              </ul>
-
-              <div class="tech-tags">
-                <span class="tag">Lean Six Sigma</span>
-                <span class="tag">Balanceo de Línea</span>
-                <span class="tag">VSM</span>
-                <span class="tag">SMED</span>
-                <span class="tag">5S</span>
-                <span class="tag">PDCA</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Instructora de Ajedrez -->
-          <div class="timeline-item" data-category="chess">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card">
-              <div class="card-meta">
-                <span class="badge badge-chess" data-i18n="role2Badge">Docencia & Estrategia</span>
-                <span class="period" data-i18n="role2Period">2020 — Presente</span>
-              </div>
-              <h3 class="role-title" data-i18n="role2Title">Instructora de Ajedrez</h3>
-              <h4 class="company-name">
-                <span data-i18n="role2Company">Clases Particulares</span>
-                <span class="location-tag" data-i18n="role2Location">📍 Mérida, Yucatán, México</span>
-              </h4>
-
-              <p class="role-summary" data-i18n="role2Summary">
-                Enseñanza de ajedrez a niños y jóvenes, desarrollando pensamiento estratégico, análisis posicional y hábitos de disciplina.
-              </p>
-
-              <ul class="impact-list">
-                <li data-i18n="role2Bullet1">
-                  <strong>Formación Estratégica:</strong> Desarrollo del pensamiento estratégico y el análisis posicional en alumnos desde edades tempranas.
-                </li>
-                <li data-i18n="role2Bullet2">
-                  <strong>Comunicación Efectiva:</strong> Capacidad de transmitir conceptos complejos de forma clara y adaptada a distintos niveles.
-                </li>
-              </ul>
-
-              <div class="tech-tags">
-                <span class="tag">Enseñanza</span>
-                <span class="tag">Análisis Posicional</span>
-                <span class="tag">Pensamiento Estratégico</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Atleta de Alto Rendimiento -->
-          <div class="timeline-item" data-category="chess">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card">
-              <div class="card-meta">
-                <span class="badge badge-chess" data-i18n="role3Badge">Competencia de Élite</span>
-                <span class="period" data-i18n="role3Period">2016 — Presente</span>
-              </div>
-              <h3 class="role-title" data-i18n="role3Title">Atleta de Alto Rendimiento — Ajedrez</h3>
-              <h4 class="company-name">
-                <span data-i18n="role3Company">Trayectoria Competitiva Nacional e Internacional</span>
-                <span class="location-tag" data-i18n="role3Location">📍 México y el extranjero</span>
-              </h4>
-
-              <p class="role-summary" data-i18n="role3Summary">
-                Ajedrecista destacada desde los 11 años, manteniéndome en el top 10 nacional y con podios en campeonatos estatales, nacionales y panamericanos.
-              </p>
-
-              <ul class="impact-list">
-                <li data-i18n="role3Bullet1">
-                  <strong>Resultados Internacionales:</strong> Subcampeona Panamericana en los Juegos FISU América, Cali 2024 (Plata en Clásico y Blitz).
-                </li>
-                <li data-i18n="role3Bullet2">
-                  <strong>Campeona Nacional Universitaria:</strong> Oro en Clásico y Blitz en la Universiada Nacional Aguascalientes 2024; Subcampeona en Puebla 2025.
-                </li>
-                <li data-i18n="role3Bullet3">
-                  <strong>Consistencia:</strong> Medallera recurrente en Olimpiada Nacional, Campeonato Nacional Abierto Mexicano y selectivos a Mundiales y Panamericanos.
-                </li>
-                <li data-i18n="role3Bullet4">
-                  <strong>Comunidad:</strong> Becada por la Universidad Anáhuac Mayab por sus logros en el deporte ciencia.
-                </li>
-              </ul>
-
-              <div class="tech-tags">
-                <span class="tag">WNM · Maestra Nacional</span>
-                <span class="tag">FISU América</span>
-                <span class="tag">Universiada Nacional</span>
-                <span class="tag">Selectivos Internacionales</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Proyecto Académico / Divulgación -->
-          <div class="timeline-item" data-category="industrial">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card">
-              <div class="card-meta">
-                <span class="badge badge-industrial" data-i18n="role4Badge">Divulgación Académica</span>
-                <span class="period" data-i18n="role4Period">2026</span>
-              </div>
-              <h3 class="role-title" data-i18n="role4Title">Proyecto Académico & Cartel ConCEI-3</h3>
-              <h4 class="company-name">
-                <span data-i18n="role4Company">Universidad Anáhuac Mayab / UADY</span>
-                <span class="location-tag" data-i18n="role4Location">📍 Mérida, Yucatán, México</span>
-              </h4>
-
-              <p class="role-summary" data-i18n="role4Summary">
-                Participación en el Cartel ConCEI-3 (UADY) en coautoría con Valeria Hurtado Ruiz, sobre herramientas de manufactura esbelta aplicadas a una línea de ensamblaje electrónico.
-              </p>
-
-              <ul class="impact-list">
-                <li data-i18n="role4Bullet1">
-                  <strong>Investigación Aplicada:</strong> Comunicación de resultados reales de mejora de procesos en un foro académico.
-                </li>
-                <li data-i18n="role4Bullet2">
-                  <strong>Trabajo en Equipo:</strong> Coautoría colaborativa en la elaboración y presentación del cartel científico.
-                </li>
-              </ul>
-
-              <div class="tech-tags">
-                <span class="tag">Manufactura Esbelta</span>
-                <span class="tag">Comunicación Científica</span>
-                <span class="tag">Coautoría</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="expTag">Trayectoria</span>
+        <h2 class="section-title" data-i18n="expTitle">Experiencia Profesional, Deportiva y Académica</h2>
+        <p class="section-desc" data-i18n="expDesc">Equilibrio entre la práctica de ingeniería industrial, una carrera deportiva de élite y la divulgación académica.</p>
       </div>
-    </section>
 
-    <!-- ACHIEVEMENTS & DISTINCTIONS SECTION -->
-    <section class="section publications-section" id="achievements">
-      <div class="container">
+      <div class="filter-wrapper">
+        <span class="filter-label" id="filterLabel" data-i18n="filterLabel">Filtro:</span>
+        <div class="filter-buttons" role="tablist">
+          <button class="filter-btn active" data-filter="all" data-i18n="filterAll">Todas las experiencias (5)</button>
+          <button class="filter-btn" data-filter="industrial" data-i18n="filterIndustrial">Ingeniería Industrial</button>
+          <button class="filter-btn" data-filter="chess" data-i18n="filterChess">Ajedrez & Deporte</button>
+          <button class="filter-btn" data-filter="academic" data-i18n="filterAcademic">Académico</button>
+        </div>
+      </div>
 
-        <div class="section-header">
-          <span class="section-tag" data-i18n="achTag">Logros & Distinciones</span>
-          <h2 class="section-title" data-i18n="achTitle">Reconocimientos Deportivos y Académicos</h2>
-          <p class="section-desc" data-i18n="achDesc">
-            Títulos, medallas y certificaciones que respaldan una trayectoria de constancia, disciplina y excelencia.
-          </p>
+      <div class="timeline" id="experienceTimeline">
+
+        <div class="timeline-item" data-category="industrial">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-meta">
+              <span class="badge badge-industrial" data-i18n="role1Badge">Experiencia Profesional</span>
+              <span class="period" data-i18n="role1Period">Enero 2026 — Julio 2026</span>
+            </div>
+            <h3 class="role-title" data-i18n="role1Title">Practicante de Ingeniería Industrial</h3>
+            <h4 class="company-name">
+              <span data-i18n="role1Company">Falco Electronics México</span>
+              <span class="location-tag">📍 Mérida, Yucatán, México</span>
+            </h4>
+            <p class="role-summary" data-i18n="role1Summary">480 horas de práctica profesional en la industria electrónica, apoyando al equipo de ingeniería en la optimización de la línea de ensamble y la mejora continua del proceso productivo.</p>
+            <ul class="impact-list">
+              <li data-i18n="role1Bullet1"><strong>Balanceo de línea:</strong> Elaboración de propuestas de balanceo para una línea de ensamble electrónico aplicando herramientas de manufactura esbelta (Lean Six Sigma).</li>
+              <li data-i18n="role1Bullet2"><strong>Mejora de eficiencia:</strong> Análisis de eficiencia de producción y propuestas de mejora mediante VSM y SMED, integradas al proceso de decisión del equipo de ingeniería.</li>
+              <li data-i18n="role1Bullet3"><strong>Control de errores:</strong> Identificación de causas de error en el proceso productivo y propuesta de acciones correctivas con metodologías de mejora continua (5S, PDCA).</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tag">Lean Six Sigma</span>
+              <span class="tag">Balanceo de Línea</span>
+              <span class="tag">VSM</span>
+              <span class="tag">SMED</span>
+              <span class="tag">5S</span>
+              <span class="tag">PDCA</span>
+            </div>
+          </div>
         </div>
 
-        <div class="pubs-grid">
-
-          <!-- Ach 1: WNM -->
-          <div class="pub-card card">
-            <div class="pub-type-badge" data-i18n="ach1Type">Ajedrez · Distinción Nacional</div>
-            <h3 class="pub-title" data-i18n="ach1Title">WNM — Maestra Nacional de Ajedrez</h3>
-            <p class="pub-authors" data-i18n="ach1Authors">FENAMAC, 2023</p>
-            <p class="pub-summary" data-i18n="ach1Summary">
-              Título ajedrecístico que acredita el grado de Maestra Nacional, otorgado por la Federación Nacional de Ajedrez de México tras años de resultados competitivos sustentados.
-            </p>
-            <div class="tech-tags">
-              <span class="tag">Título FENAMAC</span>
-              <span class="tag">Máxima categoría nacional</span>
+        <div class="timeline-item" data-category="academic">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-meta">
+              <span class="badge badge-academic" data-i18n="role2Badge">Divulgación Académica</span>
+              <span class="period" data-i18n="role2Period">2026</span>
             </div>
-          </div>
-
-          <!-- Ach 2: FISU America -->
-          <div class="pub-card card">
-            <div class="pub-type-badge" data-i18n="ach2Type">Ajedrez · Internacional</div>
-            <h3 class="pub-title" data-i18n="ach2Title">Subcampeona Panamericana — Juegos FISU América</h3>
-            <p class="pub-authors" data-i18n="ach2Authors">Cali, Colombia · Noviembre 2024</p>
-            <p class="pub-summary" data-i18n="ach2Summary">
-              Medalla de Plata en ritmo Clásico y en ritmo Blitz en los Panamericanos Universitarios FISU América Games, en representación de México.
-            </p>
+            <h3 class="role-title" data-i18n="role2Title">Proyecto Académico & Cartel ConCEI-3</h3>
+            <h4 class="company-name">
+              <span data-i18n="role2Company">Universidad Anáhuac Mayab / UADY</span>
+              <span class="location-tag">📍 Mérida, Yucatán, México</span>
+            </h4>
+            <p class="role-summary" data-i18n="role2Summary">Resumen de artículo coescrito aceptado para el Congreso ConCEI-3 (UADY), sobre herramientas de manufactura esbelta aplicadas a una línea de ensamblaje electrónico.</p>
+            <ul class="impact-list">
+              <li data-i18n="role2Bullet1"><strong>Investigación aplicada:</strong> Comunicación de resultados reales de mejora de procesos en un foro académico.</li>
+              <li data-i18n="role2Bullet2"><strong>Trabajo en equipo:</strong> Coautoría colaborativa en la elaboración y presentación del cartel científico.</li>
+            </ul>
             <div class="tech-tags">
-              <span class="tag">🥈 Clásico</span>
-              <span class="tag">🥈 Blitz</span>
-              <span class="tag">Evento FISU</span>
-            </div>
-          </div>
-
-          <!-- Ach 3: Universiad-Nacional -->
-          <div class="pub-card card">
-            <div class="pub-type-badge" data-i18n="ach3Type">Ajedrez · Campeonatos Nacionales</div>
-            <h3 class="pub-title" data-i18n="ach3Title">Campeona Nacional Universitaria</h3>
-            <p class="pub-authors" data-i18n="ach3Authors">Universiada Nacional · 2024, 2025 y 2026</p>
-            <p class="pub-summary" data-i18n="ach3Summary">
-              Oro en Clásico y Blitz en Aguascalientes 2024; Plata en Clásico, Rápido y Blitz en Aguascalientes 2025; Plata Nacional y Bronce en el Campeonato ANUIES 2026.
-            </p>
-            <div class="tech-tags">
-              <span class="tag">🥇 ORO 2024</span>
-              <span class="tag">🥈 PLATA 2025</span>
-              <span class="tag">🥉 ANUIES 2026</span>
-            </div>
-          </div>
-
-          <!-- Ach 4: Cartel ConCEI-3 -->
-          <div class="pub-card card">
-            <div class="pub-type-badge" data-i18n="ach4Type">Académico · Investigación</div>
-            <h3 class="pub-title" data-i18n="ach4Title">Cartel ConCEI-3 (UADY)</h3>
-            <p class="pub-authors" data-i18n="ach4Authors">Coautoría con Valeria Hurtado Ruiz · 2026</p>
-            <p class="pub-summary" data-i18n="ach4Summary">
-              Cartel académico sobre herramientas de manufactura esbelta aplicadas a una línea de ensamblaje electrónico, presentado en el Congreso de la ConCEI-3.
-            </p>
-            <div class="tech-tags">
-              <span class="tag">Investigación</span>
               <span class="tag">Manufactura Esbelta</span>
-              <span class="tag">Congreso</span>
+              <span class="tag">Comunicación Científica</span>
+              <span class="tag">Coautoría</span>
             </div>
           </div>
-
         </div>
 
-      </div>
-    </section>
-
-    <!-- CORE COMPETENCIES & SKILLS MATRIX -->
-    <section class="section skills-section" id="skills">
-      <div class="container">
-
-        <div class="section-header">
-          <span class="section-tag" data-i18n="skillsTag">Competencias</span>
-          <h2 class="section-title" data-i18n="skillsTitle">Dominios de Especialidad</h2>
-          <p class="section-desc" data-i18n="skillsDesc">
-            Conjunto de capacidades técnicas, analíticas, deportivas y personales consolidadas.
-          </p>
-        </div>
-
-        <div class="skills-grid">
-
-          <div class="skill-category-card card">
-            <div class="skill-category-header">
-              <div class="cat-icon">⚙️</div>
-              <h3 data-i18n="skillCat1Title">Ingeniería & Manufactura</h3>
+        <div class="timeline-item" data-category="chess">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-meta">
+              <span class="badge badge-chess" data-i18n="role3Badge">Liderazgo Deportivo</span>
+              <span class="period" data-i18n="role3Period">2022 — Presente</span>
             </div>
-            <ul class="skill-pill-list">
-              <li data-i18n="skillCat1_1">Optimización y Balanceo de Procesos Productivos</li>
-              <li data-i18n="skillCat1_2">Lean Six Sigma (White Belt)</li>
-              <li data-i18n="skillCat1_3">VSM & SMED</li>
-              <li data-i18n="skillCat1_4">Mejora Continua (5S, PDCA)</li>
-              <li data-i18n="skillCat1_5">Simulación de Sistemas (Simio)</li>
-              <li data-i18n="skillCat1_6">Manufactura: Torno, Fresadora, Soldadura SMAW</li>
+            <h3 class="role-title" data-i18n="role3Title">Capitana del Equipo de Ajedrez</h3>
+            <h4 class="company-name">
+              <span data-i18n="role3Company">Equipo Representativo · Universidad Anáhuac Mayab</span>
+              <span class="location-tag">📍 Mérida, Yucatán, México</span>
+            </h4>
+            <p class="role-summary" data-i18n="role3Summary">Capitana del equipo representativo de ajedrez de la universidad desde 2022, liderando el crecimiento y la competencia del equipo.</p>
+            <ul class="impact-list">
+              <li data-i18n="role3Bullet1"><strong>Liderazgo:</strong> El equipo creció hasta casi 20 integrantes bajo mi capitanía, promoviendo la participación y el desarrollo de nuevos jugadores.</li>
+              <li data-i18n="role3Bullet2"><strong>Compromiso formal:</strong> Dedico cerca de 15 horas semanales al ajedrez como compromiso deportivo de la universidad.</li>
+              <li data-i18n="role3Bullet3"><strong>Formación:</strong> Enseñanza de ajedrez a niños desde alrededor de 2020, primero de forma informal y después en una escuela que me dio una carta de recomendación.</li>
             </ul>
-          </div>
-
-          <div class="skill-category-card card">
-            <div class="skill-category-header">
-              <div class="cat-icon">📈</div>
-              <h3 data-i18n="skillCat2Title">Análisis de Datos & Optimización</h3>
+            <div class="tech-tags">
+              <span class="tag">Liderazgo</span>
+              <span class="tag">Capitanía</span>
+              <span class="tag">Trabajo en Equipo</span>
             </div>
-            <ul class="skill-pill-list">
-              <li data-i18n="skillCat2_1">Análisis Estadístico (Minitab)</li>
-              <li data-i18n="skillCat2_2">Optimización Matemática (LINGO)</li>
-              <li data-i18n="skillCat2_3">Power BI & Excel Avanzado</li>
-              <li data-i18n="skillCat2_4">Programación (Python, C++ — básico)</li>
-              <li data-i18n="skillCat2_5">Matemáticas Avanzadas & Análisis Numérico</li>
-              <li data-i18n="skillCat2_6">Toma de Decisiones Basada en Datos</li>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-category="chess">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-meta">
+              <span class="badge badge-chess" data-i18n="role4Badge">Docencia & Estrategia</span>
+              <span class="period" data-i18n="role4Period">2020 — Presente</span>
+            </div>
+            <h3 class="role-title" data-i18n="role4Title">Instructora de Ajedrez</h3>
+            <h4 class="company-name">
+              <span data-i18n="role4Company">Clases Particulares</span>
+              <span class="location-tag">📍 Mérida, Yucatán, México</span>
+            </h4>
+            <p class="role-summary" data-i18n="role4Summary">Enseñanza de ajedrez a niños y jóvenes, desarrollando pensamiento estratégico, análisis posicional y hábitos de disciplina.</p>
+            <ul class="impact-list">
+              <li data-i18n="role4Bullet1"><strong>Formación estratégica:</strong> Desarrollo del pensamiento estratégico y el análisis posicional en alumnos desde edades tempranas.</li>
+              <li data-i18n="role4Bullet2"><strong>Comunicación efectiva:</strong> Capacidad de transmitir conceptos complejos de forma clara y adaptada a distintos niveles.</li>
             </ul>
-          </div>
-
-          <div class="skill-category-card card">
-            <div class="skill-category-header">
-              <div class="cat-icon">🏆</div>
-              <h3 data-i18n="skillCat3Title">Ajedrez & Alto Rendimiento</h3>
+            <div class="tech-tags">
+              <span class="tag">Enseñanza</span>
+              <span class="tag">Análisis Posicional</span>
+              <span class="tag">Pensamiento Estratégico</span>
             </div>
-            <ul class="skill-pill-list">
-              <li data-i18n="skillCat3_1">WNM — Maestra Nacional de Ajedrez</li>
-              <li data-i18n="skillCat3_2">Competencia Nacional e Internacional</li>
-              <li data-i18n="skillCat3_3">Análisis Posicional & Aperturas</li>
-              <li data-i18n="skillCat3_4">Disciplina y Constancia en Entrenamiento</li>
-              <li data-i18n="skillCat3_5">Toma de Decisiones Bajo Presión</li>
-              <li data-i18n="skillCat3_6">Enseñanza y Formación de Niños</li>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-category="chess">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-meta">
+              <span class="badge badge-chess" data-i18n="role5Badge">Competencia de Élite</span>
+              <span class="period" data-i18n="role5Period">2016 — Presente</span>
+            </div>
+            <h3 class="role-title" data-i18n="role5Title">Atleta de Alto Rendimiento — Ajedrez</h3>
+            <h4 class="company-name">
+              <span data-i18n="role5Company">Trayectoria Competitiva Nacional e Internacional</span>
+              <span class="location-tag">📍 México y el extranjero</span>
+            </h4>
+            <p class="role-summary" data-i18n="role5Summary">Ajedrecista destacada desde los 11 años, manteniéndome en el top 10 nacional y con podios en campeonatos estatales, nacionales y panamericanos.</p>
+            <ul class="impact-list">
+              <li data-i18n="role5Bullet1"><strong>Resultados internacionales:</strong> Subcampeona Panamericana en los Juegos FISU América, Cali 2024 (Plata en Clásico y Blitz).</li>
+              <li data-i18n="role5Bullet2"><strong>Campeona Nacional Universitaria:</strong> Oro en Clásico y Blitz en la Universiada Nacional Aguascalientes 2024; podios en 2025 y bronce nacional ANUIES 2026.</li>
+              <li data-i18n="role5Bullet3"><strong>Selectivo al equipo olímpico:</strong> Bronce en el Campeonato Nacional Juvenil Sub-20 Pachuca 2024 (selectivo "Francisco Gerardo Valle Gasca" In Memorian).</li>
+              <li data-i18n="role5Bullet4"><strong>Presencia mundial:</strong> Participación en el Campeonato Mundial Juvenil de Ajedrez Sub-20, México 2023.</li>
+              <li data-i18n="role5Bullet5"><strong>Consistencia:</strong> Medallera recurrente en Olimpiada Nacional, Abierto Mexicano y Juegos Deportivos Escolares (tricampeona JUDEMS 2019-2021).</li>
             </ul>
-          </div>
-
-          <div class="skill-category-card card">
-            <div class="skill-category-header">
-              <div class="cat-icon">💡</div>
-              <h3 data-i18n="skillCat4Title">Habilidades Personales</h3>
-            </div>
-            <ul class="skill-pill-list">
-              <li data-i18n="skillCat4_1">Pensamiento Analítico y Estratégico</li>
-              <li data-i18n="skillCat4_2">Resolución de Problemas</li>
-              <li data-i18n="skillCat4_3">Trabajo en Equipo</li>
-              <li data-i18n="skillCat4_4">Comunicación Efectiva</li>
-              <li data-i18n="skillCat4_5">Aprendizaje Continuo</li>
-              <li data-i18n="skillCat4_6">Gestión del Tiempo y Autodisciplina</li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- EDUCATION & CREDENTIALS SECTION -->
-    <section class="section education-section" id="education">
-      <div class="container">
-
-        <div class="section-header">
-          <span class="section-tag" data-i18n="eduTag">Credenciales</span>
-          <h2 class="section-title" data-i18n="eduTitle">Formación Académica & Certificaciones</h2>
-          <p class="section-desc" data-i18n="eduDesc">
-            Formación universitaria, preparatoria con perfil matemático y certificaciones complementarias.
-          </p>
-        </div>
-
-        <div class="edu-grid">
-
-          <!-- Universidad -->
-          <div class="edu-card card">
-            <div class="edu-year">2022 — 2026</div>
-            <div class="honor-badge" data-i18n="honorText">Becaria por logros deportivos ⭐</div>
-            <h3 class="edu-degree" data-i18n="eduUniTitle">Ingeniería Industrial para la Dirección</h3>
-            <h4 class="edu-institution" data-i18n="eduUniInst">Universidad Anáhuac Mayab (Mérida, México)</h4>
-            <p class="edu-focus" data-i18n="eduUniFocus">
-              Dirección estratégica, gestión de procesos, análisis de datos y toma de decisiones en entornos industriales.
-            </p>
-          </div>
-
-          <!-- Lean Six Sigma -->
-          <div class="edu-card card">
-            <div class="edu-year">Noviembre 2024</div>
-            <h3 class="edu-degree" data-i18n="eduLssTitle">White Belt — Lean Six Sigma</h3>
-            <h4 class="edu-institution" data-i18n="eduLssInst">International Lean Six Sigma / Anáhuac Mayab</h4>
-            <p class="edu-focus" data-i18n="eduLssFocus">
-              Fundamentos de la metodología Lean Six Sigma para la eliminación de desperdicios y la mejora de procesos.
-            </p>
-          </div>
-
-          <!-- SAP HANA & Proyectos -->
-          <div class="edu-card card">
-            <div class="edu-year">2023 — 2024</div>
-            <h3 class="edu-degree" data-i18n="eduSapTitle">SAP HANA & Certificaciones Digitales</h3>
-            <h4 class="edu-institution" data-i18n="eduSapInst">Universidad Anáhuac de Oaxaca</h4>
-            <p class="edu-focus" data-i18n="eduSapFocus">
-              SAP HANA — cadena de suministro y procesos de negocio (40h); Fundamentos de Gestión de Proyectos con Herramientas Digitales (40h); Competencias Digitales (5 áreas).
-            </p>
-          </div>
-
-          <!-- Preparatoria -->
-          <div class="edu-card card">
-            <div class="edu-year">2019 — 2022</div>
-            <h3 class="edu-degree" data-i18n="eduPrepTitle">Bachillerato con Especialidad en Matemáticas</h3>
-            <h4 class="edu-institution" data-i18n="eduPrepInst">Escuela Preparatoria No. 1 de la UADY</h4>
-            <p class="edu-focus" data-i18n="eduPrepFocus">
-              Egresada de la Escuela Preparatoria Uno de la UADY, destacando en matemáticas, álgebra y cálculo.
-            </p>
-          </div>
-
-        </div>
-
-        <!-- Languages & Certifications Bar -->
-        <div class="credentials-bar card">
-          <div class="cred-block">
-            <h4 class="cred-title" data-i18n="langTitle">🌐 Idiomas</h4>
-            <div class="lang-pills">
-              <span class="lang-pill" data-i18n="langEs"><strong>Español:</strong> Nativo</span>
-              <span class="lang-pill" data-i18n="langEn"><strong>Inglés:</strong> Avanzado</span>
-              <span class="lang-pill" data-i18n="langPasaporte"><strong>Pasaporte:</strong> Vigente</span>
-            </div>
-          </div>
-
-          <div class="cred-divider"></div>
-
-          <div class="cred-block">
-            <h4 class="cred-title" data-i18n="certTitle">🎖️ Especialidad</h4>
-            <div class="cert-pills">
-              <span class="cert-pill" data-i18n="cert1">Ingeniería Industrial & Mejora Continua</span>
+            <div class="tech-tags">
+              <span class="tag">WNM · Maestra Nacional</span>
+              <span class="tag">FISU América</span>
+              <span class="tag">Universiada Nacional</span>
+              <span class="tag">Selectivos Internacionales</span>
             </div>
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section class="section contact-section" id="contact">
-      <div class="container">
-
-        <div class="contact-card card">
-          <div class="contact-content">
-            <span class="section-tag" data-i18n="contactTag">Contacto & Colaboración</span>
-            <h2 class="contact-heading" data-i18n="contactHeading">Conectemos para crear valor e impacto</h2>
-            <p class="contact-sub" data-i18n="contactSub">
-              Abierta a oportunidades profesionales en ingeniería industrial, análisis de datos, mejora continua, docencia de ajedrez y proyectos de alto impacto.
-            </p>
-
-            <div class="contact-actions">
-              <a href="mailto:brendaelisacabreracruz@gmail.com" class="btn btn-primary" id="btnContactEmail">
-                <span data-i18n="contactBtnEmail">Escribir Mensaje</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-              </a>
-              <a href="Profile.pdf" download class="btn btn-secondary" id="btnContactCv">
-                <span data-i18n="contactBtnCv">Descargar CV Completo</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              </a>
-            </div>
-
-            <div class="contact-channels">
-              <div class="channel-row">
-                <div class="channel-item">
-                  <span class="channel-icon">✉️</span>
-                  <a href="mailto:brendaelisacabreracruz@gmail.com" class="channel-link">brendaelisacabreracruz@gmail.com</a>
-                  <button class="btn btn-xs btn-outline btn-copy-inline" id="btnCopyEmail" title="Copiar correo">
-                    <span data-i18n="contactCopyBtn">Copiar</span>
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                  </button>
-                  <span class="copied-email-tag" id="copiedEmailTag" data-i18n="contactCopied">¡Copiado!</span>
-                </div>
-                <div class="channel-item">
-                  <span class="channel-icon">📞</span>
-                  <a href="tel:+529992341010" class="channel-link">+52 999 234 1010</a>
-                </div>
-              </div>
-
-              <div class="channel-socials">
-                <a href="https://www.linkedin.com/in/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
-                  <span>LinkedIn</span>
-                </a>
-                <a href="https://github.com/BrendaElisaCabreraCruz" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"></path></svg>
-                  <span>GitHub</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-container">
-      <div class="footer-left">
-        <p class="footer-copy">
-          &copy; <span id="currentYear"></span> <strong>Brenda Elisa Cabrera Cruz</strong>. <span data-i18n="footerCopy">Todos los derechos reservados.</span>
-        </p>
-        <p class="footer-tagline" data-i18n="footerTagline">
-          Ingeniería, Estrategia y Ajedrez de Alto Rendimiento.
-        </p>
-      </div>
-
-      <div class="footer-links">
-        <a href="#hero" data-i18n="navHome">Inicio</a>
-        <a href="#about" data-i18n="navProfile">Perfil</a>
-        <a href="#experience" data-i18n="navExperience">Trayectoria</a>
-        <a href="#achievements" data-i18n="navAchievements">Logros</a>
-        <a href="https://www.linkedin.com/in/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/BrendaElisaCabreraCruz" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <!-- Notification Toast -->
-  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+  <!-- LOGROS -->
+  <section class="section" id="logros">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="achTag">Logros & Distinciones</span>
+        <h2 class="section-title" data-i18n="achTitle">Reconocimientos Deportivos y Académicos</h2>
+        <p class="section-desc" data-i18n="achDesc">Títulos, medallas y certificaciones que respaldan una trayectoria de constancia, disciplina y excelencia.</p>
+      </div>
 
-  <!-- Scripts -->
-  <script src="translations.js"></script>
-  <script src="app.js"></script>
+      <div class="pubs-grid">
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach1Type">Ajedrez · Distinción Nacional</div>
+          <h3 class="pub-title" data-i18n="ach1Title">WNM — Maestra Nacional de Ajedrez</h3>
+          <p class="pub-authors" data-i18n="ach1Authors">FENAMAC, 2023</p>
+          <p class="pub-summary" data-i18n="ach1Summary">Título ajedrecístico que acredita el grado de Maestra Nacional, otorgado por la Federación Nacional de Ajedrez de México tras años de resultados competitivos sustentados.</p>
+        </div>
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach2Type">Ajedrez · Internacional</div>
+          <h3 class="pub-title" data-i18n="ach2Title">Subcampeona Panamericana — Juegos FISU América</h3>
+          <p class="pub-authors" data-i18n="ach2Authors">Cali, Colombia · Noviembre 2024</p>
+          <p class="pub-summary" data-i18n="ach2Summary">Medalla de Plata en ritmo Clásico y en ritmo Blitz en los Panamericanos Universitarios FISU América Games, en representación de México.</p>
+        </div>
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach3Type">Ajedrez · Campeonatos Nacionales</div>
+          <h3 class="pub-title" data-i18n="ach3Title">Campeona Nacional Universitaria</h3>
+          <p class="pub-authors" data-i18n="ach3Authors">Universiada Nacional · 2024, 2025 y 2026</p>
+          <p class="pub-summary" data-i18n="ach3Summary">Oro en Clásico y Blitz en Aguascalientes 2024; Plata en Clásico, Rápido y Blitz en 2025; Bronce nacional en el Campeonato ANUIES 2026.</p>
+        </div>
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach4Type">Ajedrez · Selectivo Nacional</div>
+          <h3 class="pub-title" data-i18n="ach4Title">Bronce — Selectivo al Equipo Olímpico</h3>
+          <p class="pub-authors" data-i18n="ach4Authors">Campeonato Nacional Juvenil Sub-20 · Pachuca 2024</p>
+          <p class="pub-summary" data-i18n="ach4Summary">Tercer lugar en el selectivo "Francisco Gerardo Valle Gasca" In Memorian, aspirando a un lugar en el equipo olímpico mexicano.</p>
+        </div>
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach5Type">Ajedrez · Mundial</div>
+          <h3 class="pub-title" data-i18n="ach5Title">Campeonato Mundial Juvenil Sub-20</h3>
+          <p class="pub-authors" data-i18n="ach5Authors">Ciudad de México · 2023</p>
+          <p class="pub-summary" data-i18n="ach5Summary">Participación en el Mundial Juvenil de Ajedrez Sub-20 representando a México en casa.</p>
+        </div>
+        <div class="pub-card card">
+          <div class="pub-type-badge" data-i18n="ach6Type">Académico · Investigación</div>
+          <h3 class="pub-title" data-i18n="ach6Title">Cartel ConCEI-3 (UADY)</h3>
+          <p class="pub-authors" data-i18n="ach6Authors">Coautoría con Valeria Hurtado Ruiz · 2026</p>
+          <p class="pub-summary" data-i18n="ach6Summary">Cartel académico sobre herramientas de manufactura esbelta aplicadas a una línea de ensamblaje electrónico, presentado en el Congreso ConCEI-3.</p>
+        </div>
+      </div>
+
+      <p class="achievements-extra" data-i18n="achExtra">Además: medallera recurrente en el Abierto Mexicano (Plata Sub-18 Femenil 2021 y 2022), Olimpiada Nacional, campeona estatal femenil de Yucatán (2019) y reconocimiento por parte del Ayuntamiento de Mérida por participaciones destacadas en torneos (2019).</p>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="projectsTag">Proyectos</span>
+        <h2 class="section-title" data-i18n="projectsTitle">Trabajo y Cursos Destacados</h2>
+        <p class="section-desc" data-i18n="projectsDesc">Proyectos académicos y de formación recientes, en actualización constante.</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card card">
+          <div class="ptag" data-i18n="proj1Tag">Data Mining & IA</div>
+          <h3 data-i18n="proj1Title">Data Mining & Modern AI Systems</h3>
+          <p data-i18n="proj1Text">Ingesta de datos, pipelines MLOps, esquemas en estrella, integridad de datos y feature engineering, con la mira puesta en dedicarme a la ciencia de datos e inteligencia artificial.</p>
+          <div class="stack">
+            <span class="chip">Python</span>
+            <span class="chip">MLOps</span>
+            <span class="chip">Feature Engineering</span>
+          </div>
+        </div>
+        <div class="project-card card">
+          <div class="ptag" data-i18n="proj2Tag">Visualización de Datos</div>
+          <h3 data-i18n="proj2Title">Dashboard de Ajedrez</h3>
+          <p data-i18n="proj2Text">Proyecto final de Visualización de Datos: retórica visual y arquitectura de la información sobre datos de ajedrez, construido en Flourish.</p>
+          <div class="stack">
+            <span class="chip">Flourish</span>
+            <span class="chip">Power BI</span>
+          </div>
+        </div>
+        <div class="project-card card">
+          <div class="ptag" data-i18n="proj3Tag">COIL · Colaboración Internacional</div>
+          <h3 data-i18n="proj3Title">Molde de Chocolate (Fusion 360 + Impresión 3D)</h3>
+          <p data-i18n="proj3Text">Proyecto COIL de diseño de un molde de chocolate con Fusion 360 e impresión 3D, en colaboración con ESPAM MFL Ecuador.</p>
+          <div class="stack">
+            <span class="chip">Fusion 360</span>
+            <span class="chip">Impresión 3D</span>
+            <span class="chip">COIL</span>
+          </div>
+        </div>
+        <div class="project-card card">
+          <div class="ptag" data-i18n="proj4Tag">Lean Manufacturing</div>
+          <h3 data-i18n="proj4Title">Optimización de Línea de Ensamble</h3>
+          <p data-i18n="proj4Text">Aplicación de Lean Six Sigma, VSM y SMED en Falco Electronics, comunicada como cartel en el Congreso ConCEI-3 (UADY).</p>
+          <div class="stack">
+            <span class="chip">Lean Six Sigma</span>
+            <span class="chip">VSM</span>
+            <span class="chip">SMED</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCIAS -->
+  <section class="section" id="competencias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="skillsTag">Competencias</span>
+        <h2 class="section-title" data-i18n="skillsTitle">Dominios de Especialidad</h2>
+        <p class="section-desc" data-i18n="skillsDesc">Conjunto de capacidades técnicas, analíticas, deportivas y personales consolidadas.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category-card card">
+          <div class="skill-category-header">
+            <div class="cat-icon">⚙️</div>
+            <h3 data-i18n="skillCat1Title">Ingeniería & Manufactura</h3>
+          </div>
+          <ul class="skill-pill-list">
+            <li data-i18n="skillCat1_1">Optimización y Balanceo de Procesos Productivos</li>
+            <li data-i18n="skillCat1_2">Lean Six Sigma (White Belt)</li>
+            <li data-i18n="skillCat1_3">VSM & SMED</li>
+            <li data-i18n="skillCat1_4">Mejora Continua (5S, PDCA)</li>
+            <li data-i18n="skillCat1_5">Simulación de Sistemas (Simio)</li>
+            <li data-i18n="skillCat1_6">Manufactura: Torno, Fresadora, Soldadura SMAW</li>
+          </ul>
+        </div>
+
+        <div class="skill-category-card card">
+          <div class="skill-category-header">
+            <div class="cat-icon">📈</div>
+            <h3 data-i18n="skillCat2Title">Datos, Analítica & Optimización</h3>
+          </div>
+          <ul class="skill-pill-list">
+            <li data-i18n="skillCat2_1">Data Mining & Modern AI Systems</li>
+            <li data-i18n="skillCat2_2">Análisis Estadístico (Minitab)</li>
+            <li data-i18n="skillCat2_3">Optimización Matemática (LINGO)</li>
+            <li data-i18n="skillCat2_4">Power BI & Excel Avanzado</li>
+            <li data-i18n="skillCat2_5">Programación (Python, C++)</li>
+            <li data-i18n="skillCat2_6">Toma de Decisiones Basada en Datos</li>
+          </ul>
+        </div>
+
+        <div class="skill-category-card card">
+          <div class="skill-category-header">
+            <div class="cat-icon">🏆</div>
+            <h3 data-i18n="skillCat3Title">Ajedrez & Alto Rendimiento</h3>
+          </div>
+          <ul class="skill-pill-list">
+            <li data-i18n="skillCat3_1">WNM — Maestra Nacional de Ajedrez</li>
+            <li data-i18n="skillCat3_2">Competencia Nacional e Internacional</li>
+            <li data-i18n="skillCat3_3">Análisis Posicional & Aperturas</li>
+            <li data-i18n="skillCat3_4">Disciplina y Constancia en Entrenamiento</li>
+            <li data-i18n="skillCat3_5">Toma de Decisiones Bajo Presión</li>
+            <li data-i18n="skillCat3_6">Enseñanza y Formación de Niños</li>
+          </ul>
+        </div>
+
+        <div class="skill-category-card card">
+          <div class="skill-category-header">
+            <div class="cat-icon">💡</div>
+            <h3 data-i18n="skillCat4Title">Habilidades Personales</h3>
+          </div>
+          <ul class="skill-pill-list">
+            <li data-i18n="skillCat4_1">Pensamiento Analítico y Estratégico</li>
+            <li data-i18n="skillCat4_2">Resolución de Problemas</li>
+            <li data-i18n="skillCat4_3">Trabajo en Equipo</li>
+            <li data-i18n="skillCat4_4">Comunicación Efectiva</li>
+            <li data-i18n="skillCat4_5">Diseño (Photoshop) & Producción Musical</li>
+            <li data-i18n="skillCat4_6">Aprendizaje Continuo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACIÓN -->
+  <section class="section" id="educacion">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="eduTag">Credenciales</span>
+        <h2 class="section-title" data-i18n="eduTitle">Formación Académica & Certificaciones</h2>
+        <p class="section-desc" data-i18n="eduDesc">Formación universitaria, preparatoria y secundaria con base en ciencias, más certificaciones complementarias.</p>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-card card">
+          <div class="edu-year">2022 — 2026</div>
+          <h3 class="edu-degree" data-i18n="eduUniTitle">Ingeniería Industrial para la Dirección</h3>
+          <h4 class="edu-institution" data-i18n="eduUniInst">Universidad Anáhuac Mayab (Mérida, México)</h4>
+          <p class="edu-focus" data-i18n="eduUniFocus">Dirección estratégica, gestión de procesos, análisis de datos y toma de decisiones en entornos industriales. Promedio acumulado por encima de 9.35.</p>
+        </div>
+
+        <div class="edu-card card">
+          <div class="edu-year">2023 — 2024</div>
+          <h3 class="edu-degree" data-i18n="eduSapTitle">Formación Digital Complementaria</h3>
+          <h4 class="edu-institution" data-i18n="eduSapInst">Universidad Anáhuac de Oaxaca & Anáhuac Mayab</h4>
+          <ul class="edu-certs">
+            <li data-i18n="eduCert1">White Belt — Lean Six Sigma (noviembre 2024)</li>
+            <li data-i18n="eduCert2">SAP HANA — cadena de suministro y procesos de negocio (40h)</li>
+            <li data-i18n="eduCert3">Fundamentos de Gestión de Proyectos con Herramientas Digitales (40h)</li>
+            <li data-i18n="eduCert4">Competencias Digitales Generales (5 áreas)</li>
+            <li data-i18n="eduCert5">Uchallenge — Emprendimiento (2023 y 2024)</li>
+          </ul>
+        </div>
+
+        <div class="edu-card card">
+          <div class="edu-year">2019 — 2022</div>
+          <h3 class="edu-degree" data-i18n="eduPrepTitle">Bachillerato con Especialidad en Matemáticas</h3>
+          <h4 class="edu-institution" data-i18n="eduPrepInst">Escuela Preparatoria No. 1 de la UADY</h4>
+          <p class="edu-focus" data-i18n="eduPrepFocus">Egresada de la Escuela Preparatoria Uno de la UADY, destacando en matemáticas, álgebra y cálculo.</p>
+        </div>
+
+        <div class="edu-card card">
+          <div class="edu-year">2016 — 2019</div>
+          <h3 class="edu-degree" data-i18n="eduSecTitle">Educación Secundaria</h3>
+          <h4 class="edu-institution" data-i18n="eduSecInst">Escuela Secundaria Estatal No. 5 "Dr. Eduardo Urzaiz Rodríguez"</h4>
+          <p class="edu-focus" data-i18n="eduSecFocus">Formación base en ciencias y matemáticas, cuna de mi interés por el ajedrez y la lógica.</p>
+        </div>
+      </div>
+
+      <div class="course-tags card">
+        <h4 class="course-tags-title" data-i18n="courseTitle">Materias relevantes</h4>
+        <div class="stack">
+          <span class="chip" data-i18n="course1">Data Mining & Modern AI Systems</span>
+          <span class="chip" data-i18n="course2">Visualización de Datos</span>
+          <span class="chip" data-i18n="course3">Lean Manufacturing para el Sector Servicios</span>
+          <span class="chip" data-i18n="course4">Planeación Estratégica (Porter, BCG, FODA)</span>
+          <span class="chip" data-i18n="course5">Planeación de la Producción y Control de Inventarios</span>
+          <span class="chip" data-i18n="course6">Manejo de Conflictos y Toma de Decisiones</span>
+          <span class="chip" data-i18n="course7">Integrated Management Systems</span>
+          <span class="chip" data-i18n="course8">Human Capital Development</span>
+          <span class="chip" data-i18n="course9">Termodinámica</span>
+        </div>
+      </div>
+
+      <div class="credentials-bar card">
+        <div class="cred-block">
+          <h4 class="cred-title" data-i18n="langTitle">🌐 Idiomas</h4>
+          <div class="lang-pills">
+            <span class="lang-pill" data-i18n="langEs"><strong>Español:</strong> Nativo</span>
+            <span class="lang-pill" data-i18n="langEn"><strong>Inglés:</strong> Avanzado (B2-C1)</span>
+            <span class="lang-pill" data-i18n="langPasaporte"><strong>Pasaporte:</strong> Vigente</span>
+          </div>
+        </div>
+        <div class="cred-divider"></div>
+        <div class="cred-block">
+          <h4 class="cred-title" data-i18n="certTitle">🎖️ Especialidad</h4>
+          <div class="cert-pills">
+            <span class="cert-pill" data-i18n="cert1">Ingeniería Industrial & Mejora Continua</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-card card">
+        <div class="contact-content">
+          <span class="section-tag" data-i18n="contactTag">Contacto & Colaboración</span>
+          <h2 class="contact-heading" data-i18n="contactHeading">Conectemos para crear valor e impacto</h2>
+          <p class="contact-sub" data-i18n="contactSub">Abierta a oportunidades profesionales en ingeniería industrial, análisis de datos, inteligencia artificial, mejora continua, docencia de ajedrez y proyectos de alto impacto.</p>
+
+          <div class="contact-actions">
+            <a href="mailto:brendaelisacabreracruz@gmail.com" class="btn btn-primary">
+              <span data-i18n="contactBtnEmail">Escribir Mensaje</span>
+            </a>
+            <a href="Profile.pdf" download class="btn btn-secondary">
+              <span data-i18n="contactBtnCv">Descargar CV Completo</span>
+            </a>
+          </div>
+
+          <div class="contact-channels">
+            <div class="channel-item">
+              <span class="channel-icon">✉️</span>
+              <a href="mailto:brendaelisacabreracruz@gmail.com" class="channel-link">brendaelisacabreracruz@gmail.com</a>
+              <button class="btn btn-xs btn-outline btn-copy-inline" id="btnCopyEmail" title="Copiar correo">
+                <span data-i18n="contactCopyBtn">Copiar</span>
+              </button>
+              <span class="copied-email-tag" id="copiedEmailTag" data-i18n="contactCopied">¡Copiado!</span>
+            </div>
+            <div class="channel-item">
+              <span class="channel-icon">📞</span>
+              <a href="tel:+529992341010" class="channel-link">+52 999 234 1010</a>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.9 0-1.63.73-1.63 1.63 0 .9.73 1.63 1.63 1.63.9 0 1.63-.73 1.63-1.63 0-.9-.73-1.63-1.63-1.63Z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/BrendaElisaCabreraCruz" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              GitHub
+            </a>
+            <a href="https://soundcloud.com/brenda-elisa-cabrera-cruz" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.4a3.2 3.2 0 0 0-1.8.6 4.6 4.6 0 0 1-.3 1 3.4 3.4 0 0 1 .1 1 3.2 3.2 0 0 1-1.3 2.5v.9a4.1 4.1 0 0 1-4.1 4.1h-3.4V9.8a5 5 0 0 1-1.4 3 7 7 0 0 1 .1 1.3 3.2 3.2 0 0 1-1.2 2.6 3 3 0 0 1-4.9-2.1 3 3 0 0 1 1-2.1.5.5 0 0 1 .3-.1v-1.4A8 8 0 0 0 2 11.4 8 8 0 0 0 10 19.4l1.6-.2h6.8a3.6 3.6 0 0 0 .9-.1 4 4 0 0 0 1.8-7 4 4 0 0 0 .9.3z" /></svg>
+              SoundCloud
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <p class="footer-copy">
+      &copy; <span id="currentYear"></span> <strong>Brenda Elisa Cabrera Cruz</strong>. <span data-i18n="footerCopy">Todos los derechos reservados.</span>
+    </p>
+    <p class="footer-tagline" data-i18n="footerTagline">Ingeniería, Estrategia y Ajedrez de Alto Rendimiento.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
