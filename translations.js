@@ -1,6 +1,6 @@
 const TRANSLATIONS = {
   es: {
-    metaTitle: "Brenda",
+    metaTitle: "BECC",
     metaDesc: "Estudiante de Ingeniería Industrial para la Dirección (Anáhuac Mayab) y Maestra Nacional de Ajedrez (WNM). Gestión de procesos, análisis de datos, mejora continua y alta competencia deportiva.",
     navHome: "Inicio",
     navProfile: "Perfil",
@@ -221,7 +221,7 @@ const TRANSLATIONS = {
   },
 
   en: {
-    metaTitle: "Brenda",
+    metaTitle: "BECC",
     metaDesc: "Industrial Engineering for Management student (Anáhuac Mayab) and Woman National Master of Chess (WNM). Process management, data analytics, continuous improvement and elite sports competition.",
     navHome: "Home",
     navProfile: "Profile",
