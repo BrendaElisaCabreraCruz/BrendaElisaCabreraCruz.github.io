@@ -1,6 +1,6 @@
 const TRANSLATIONS = {
   es: {
-    metaTitle: "Brenda Elisa Cabrera Cruz | Ingeniería Industrial y Ajedrez de Alto Rendimiento",
+    metaTitle: "Brenda",
     metaDesc: "Estudiante de Ingeniería Industrial para la Dirección (Anáhuac Mayab) y Maestra Nacional de Ajedrez (WNM). Gestión de procesos, análisis de datos, mejora continua y alta competencia deportiva.",
     navHome: "Inicio",
     navProfile: "Perfil",
@@ -221,7 +221,7 @@ const TRANSLATIONS = {
   },
 
   en: {
-    metaTitle: "Brenda Elisa Cabrera Cruz | Industrial Engineering & High-Performance Chess",
+    metaTitle: "Brenda",
     metaDesc: "Industrial Engineering for Management student (Anáhuac Mayab) and Woman National Master of Chess (WNM). Process management, data analytics, continuous improvement and elite sports competition.",
     navHome: "Home",
     navProfile: "Profile",
